@@ -6,7 +6,7 @@ A powerful, GUI-based save editor for **Tales of Arise** on PlayStation 4, devel
 
 ### 💰 Currency & Character Management
 
-* **Gald Editor:** Instantly set your Gald to the maximum ().
+* **Gald Editor:** Instantly set your Gald to the maximum (999,999,999).
 * **Multi-Character Support:** Edit stats for Alphen, Shionne, Rinwell, Law, Kisara, and Dohalim.
 * **One-Click Maxing:** "Max All" or "Max Selected" buttons to instantly cap level, EXP, HP, and combat stats.
 
