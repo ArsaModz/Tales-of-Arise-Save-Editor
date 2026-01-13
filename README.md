@@ -33,7 +33,7 @@ Modify individual stats for any character, including:
 
 ## 🛠️ Requirements
 
-* **Python 3.x**
+* **Python 3.13.11**
 * **PyQt6:** Used for the graphical interface.
 * **Decrypted PS4 Save:** You must provide a decrypted `.sav` file (typically extracted via Save Wizard or similar tools).
 
