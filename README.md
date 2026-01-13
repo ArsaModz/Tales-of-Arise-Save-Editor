@@ -24,7 +24,7 @@ Modify individual stats for any character, including:
 
 ### 🎒 Inventory Master
 
-* **Massive Item Database:** Includes Consumables, Materials, Weapons, Armor, Valuable Items, and even DLC/Costumes.
+* **Massive Item Database:** Includes Consumables, Materials, Weapons, Armor, Valuable Items, and Costumes.
 * **Search Function:** Quickly find items by name using the real-time search bar.
 * **Inventory Control:** Add new items, update quantities (up to 99), or remove items from your save.
 * **Add All:** A specialized function to populate your inventory with every item in the database at once.
