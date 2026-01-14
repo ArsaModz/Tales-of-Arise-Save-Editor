@@ -58,7 +58,7 @@ pip install PyQt6
 
 3. **Run the application:**
 ```bash
-python TOA.py
+python main.py
 
 ```
 
