@@ -33,36 +33,7 @@ Modify individual stats for any character, including:
 
 ## 🛠️ Requirements
 
-* **Python 3.x**
-* **PyQt6:** Used for the graphical interface.
 * **Decrypted PS4 Save:** You must provide a decrypted `.sav` file (typically extracted via Save Wizard or similar tools).
-
----
-
-## 💻 Installation
-
-1. **Clone the repository:**
-```bash
-git clone https://github.com/YourUsername/TOA-Save-Editor.git
-cd TOA-Save-Editor
-
-```
-
-
-2. **Install dependencies:**
-```bash
-pip install PyQt6
-
-```
-
-
-3. **Run the application:**
-```bash
-python main.py
-
-```
-
-
 
 ---
 
