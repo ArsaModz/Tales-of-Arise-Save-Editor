@@ -1,4 +1,4 @@
-# Tales of Arise Save Editor (PS4) V1.0
+# Tales of Arise Save Editor (PS4)
 
 A powerful, GUI-based save editor for **Tales of Arise** on PlayStation 4, developed by **ArsaModz**. This tool allows you to modify character stats, currency (Gald), and manage your entire inventory with a user-friendly interface powered by PyQt6.
 
