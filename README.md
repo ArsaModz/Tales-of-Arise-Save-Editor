@@ -1,4 +1,4 @@
-# Tales of Arise Save Editor (PS4) V1.1
+# Tales of Arise Save Editor (PS4)
 
 Developed by **ArsaModz**, this is a powerful desktop application designed to modify *Tales of Arise* save files. The editor provides a modern dark-themed interface to manage your progression, characters, and items with ease.
 
