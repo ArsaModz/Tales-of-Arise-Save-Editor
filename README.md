@@ -1,59 +1,51 @@
 # Tales of Arise Save Editor (PS4)
 
-Developed by **ArsaModz**, this is a powerful desktop application designed to modify *Tales of Arise* save files. The editor provides a modern dark-themed interface to manage your progression, characters, and items with ease.
+A modern, graphical save editor for *Tales of Arise* (PS4), built with Python and PyQt6. This tool allows players to easily modify character statistics, currency, and inventory items through a user-friendly dark-themed interface.
 
 ## 🚀 Features
 
-### **Character Editor**
+### 👤 Character Editor
 
-* **Stats Management**: Modify individual stats for all main characters including Alphen, Shionne, Rinwell, Law, Kisara, and Dohalim.
-* **Editable Attributes**: Change Level, EXP, Skill Points, HP, Artes Gauge, Attack, Elemental Attack, Defense, and more.
-* **Batch Editing**: Instantly maximize stats for your current character or the entire party with one click.
-* **Currency**: Edit your Gald amount up to 999,999,999.
+Modify individual stats for all main party members, including **Alphen, Shionne, Rinwell, Law, Kisara, and Dohalim**.
 
-### **Inventory Editor**
+* **Currency Manipulation:** Edit your Gald amount up to 999,999,999.
+* **Individual Stat Tuning:** Precisely adjust Level, EXP, Skill Points, HP, Attack, Defense, Penetration, and more.
+* **Batch Editing:** One-click buttons to "Max This Character" or "Max All Characters".
 
-* **Extensive Database**: Includes a built-in database of consumables, materials, weapons, and armor.
-* **Search & Filter**: Quickly find specific items in the database to add to your save.
-* **Item Management**: Add individual items with custom quantities (up to 99), or use the "Add All" feature to unlock every item in the game.
-* **Quantity Editing**: Modify the quantity of items already in your inventory directly from the table.
+### 📦 Inventory Editor
 
-## 🛠️ Tech Stack
+A robust system to manage your items with a built-in searchable database.
 
-* **Language**: Python
-* **UI Framework**: PyQt6 (with a custom dark theme)
-* **Binary Manipulation**: `struct` for hex data handling
+* **Searchable Database:** Quickly find items from a hardcoded database of hundreds of entries.
+* **Item Management:** Add new items to your save or remove existing ones.
+* **Quantity Control:** Edit item quantities directly (up to 99x).
+* **Add All Items:** Overwrite your inventory with a full set of every item in the database.
 
-## 📥 Installation
+### 🛠 Supported Items
 
-1. Ensure you have **Python 3.x** installed.
-2. Install the required dependencies:
-```bash
-pip install PyQt6
+The editor includes an extensive database of game assets, including:
 
-```
+* **Consumables:** Gels, Bottles, Elixirs, and Herbs.
+* **Materials:** Cooking ingredients, Zeugle parts, and ores.
+* **Equipment:** Weapons, Armors, and Accessories for all characters.
+* **Outfits:** Costume items like Straw Hats, Sunglasses, and more.
 
+## 🖥 UI Gallery
 
-3. Run the application:
-```bash
-python main.py
+The application features a modern dark theme inspired by professional IDEs, utilizing a sleek "Segoe UI" aesthetic with color-coded action buttons (e.g., green for adding items, red for deletions).
 
-```
+## 🛠 Tech Stack
 
+* **Language:** Python 3.x
+* **GUI Framework:** PyQt6
+* **Data Handling:** Binary file manipulation via `struct`
 
+## 📝 How to Use
 
-## 📖 How to Use
-
-1. **Open Save**: Click "Open Save File" to load your decrypted PS4 save.
-2. **Edit Stats**: Use the "Character Editor" tab to select a character and adjust their values.
-3. **Manage Items**: Use the "Inventory Editor" tab to search for items in the database and move them into your save.
-4. **Save**: Click "Save Changes" to write the modifications back to your file.
-
-## ⚠️ Requirements
-
-* This tool is designed for **PS4** save files.
-* The save file must be **decrypted** (e.g., via Save Wizard or similar tools) before it can be edited.
+1. **Open:** Use the "Open Save File" button to load your decrypted PS4 save data.
+2. **Edit:** Navigate between the "Character Editor" and "Inventory Editor" tabs to make your changes.
+3. **Save:** Click "Save Changes" to write the modifications back to your file.
 
 ---
 
-*Disclaimer: This tool is for educational purposes. Always back up your save files before making any modifications.*
+*Created by ArsaModz*
