@@ -1,60 +1,40 @@
-# Tales of Arise Save Editor (PS4)
+# Tales of Arise Save Editor (PS4) V1.1
 
-A specialized desktop application designed to modify **Tales of Arise** PS4 save files. Built with a focus on ease of use and safety, this tool allows you to manipulate currency, character attributes, and your entire inventory via a modern graphical interface.
+Developed by **ArsaModz**, this is a powerful desktop application designed to modify *Tales of Arise* save files. The editor provides a modern dark-themed interface to manage your progression, characters, and items with ease.
 
-## ✨ Key Features
+## 🚀 Features
 
-### 💰 Currency & Economy
+### **Character Editor**
 
-* **Gald Management:** Instantly view and edit your current Gald.
-* **One-Click Max:** Includes a "Max" shortcut to set your Gald to 999,999,999 instantly.
+* **Stats Management**: Modify individual stats for all main characters including Alphen, Shionne, Rinwell, Law, Kisara, and Dohalim.
+* **Editable Attributes**: Change Level, EXP, Skill Points, HP, Artes Gauge, Attack, Elemental Attack, Defense, and more.
+* **Batch Editing**: Instantly maximize stats for your current character or the entire party with one click.
+* **Currency**: Edit your Gald amount up to 999,999,999.
 
-### 🎭 Character Attribute Editor
+### **Inventory Editor**
 
-* **Multi-Character Support:** Switch between all party members (Alphen, Shionne, Rinwell, etc.) using a convenient dropdown menu.
-* **Stat Modification:** Edit core statistics including:
-* Level & XP
-* Max HP & CP
-* Attack, Defense, Elemental Attack, and Elemental Defense.
-* Penetration and Resistance.
+* **Extensive Database**: Includes a built-in database of consumables, materials, weapons, and armor.
+* **Search & Filter**: Quickly find specific items in the database to add to your save.
+* **Item Management**: Add individual items with custom quantities (up to 99), or use the "Add All" feature to unlock every item in the game.
+* **Quantity Editing**: Modify the quantity of items already in your inventory directly from the table.
 
+## 🛠️ Tech Stack
 
-* **Batch Operations:** Features "Max This Char" and "Max All Chars" buttons to save time on grinding.
+* **Language**: Python
+* **UI Framework**: PyQt6 (with a custom dark theme)
+* **Binary Manipulation**: `struct` for hex data handling
 
-### 📦 Robust Inventory System
+## 📥 Installation
 
-* **Database Integration:** Integrated search bar to filter through the extensive `ITEM_DB`.
-* **Hex-Based Precision:** Maps item names to their internal Hex IDs (e.g., `4CAFC38C`) for perfect accuracy.
-* **Smart Adding:** Automatically finds the next empty slot in your save's inventory block to inject new items.
-* **Bulk Import:** "Add All" feature to instantly populate your inventory with every item in the database at max quantity.
+1. Ensure you have **Python 3.x** installed.
+2. Install the required dependencies:
+```bash
+pip install PyQt6
 
----
-
-## 🛠️ Technical Overview
-
-* **UI Framework:** Developed using **PyQt6** for a responsive, high-definition experience.
-* **Data Handling:** Utilizes Python's `struct` module for precise Little-endian (`<I`) binary manipulation of `.sav` files.
-* **Safety First:**
-* **Caching:** Changes are held in a local cache before being committed to the file.
-* **Hex Pattern Matching:** Uses unique pattern signatures (`INV_PATT`) to locate data blocks even if save file offsets shift.
+```
 
 
-* **Modern Styling:** Features a custom CSS-based Dark Theme with amber and blue highlights for better scannability.
-
----
-
-## 🚀 Getting Started
-
-### Prerequisites
-
-* Python 3.10+
-* Required Libraries: `pip install PyQt6`
-
-### Running the Editor
-
-1. Clone this repository.
-2. Ensure `utils.py` and `data.py` (containing `ITEM_DB`) are in the same directory.
-3. Launch the application:
+3. Run the application:
 ```bash
 python main.py
 
@@ -62,16 +42,18 @@ python main.py
 
 
 
-### How to Use
+## 📖 How to Use
 
-1. **Open:** Load your decrypted PS4 save file.
-2. **Edit:** Modify values in the **Character** or **Inventory** tabs.
-3. **Save:** Click "Save Changes" to write the binary data back to the file.
+1. **Open Save**: Click "Open Save File" to load your decrypted PS4 save.
+2. **Edit Stats**: Use the "Character Editor" tab to select a character and adjust their values.
+3. **Manage Items**: Use the "Inventory Editor" tab to search for items in the database and move them into your save.
+4. **Save**: Click "Save Changes" to write the modifications back to your file.
+
+## ⚠️ Requirements
+
+* This tool is designed for **PS4** save files.
+* The save file must be **decrypted** (e.g., via Save Wizard or similar tools) before it can be edited.
 
 ---
 
-## 📝 Disclaimer
-
-This tool is for educational and modding purposes only. Please create a backup of your save file before making any changes.
-
-**Developed by:** ArsaModz
+*Disclaimer: This tool is for educational purposes. Always back up your save files before making any modifications.*
