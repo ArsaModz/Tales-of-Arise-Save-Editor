@@ -1,6 +1,6 @@
 # Tales of Arise Save Editor (PS4)
 
-A modern, graphical save editor for *Tales of Arise* (PS4), built with Python and PyQt6. This tool allows players to easily modify character statistics, currency, and inventory items through a user-friendly dark-themed interface.
+A save editor for *Tales of Arise* (PS4), built with Python and PyQt6. This tool allows players to easily modify character statistics, currency, and inventory items through a user-friendly dark-themed interface.
 
 ## 🚀 Features
 
