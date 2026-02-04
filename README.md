@@ -48,4 +48,4 @@ The application features a modern dark theme inspired by professional IDEs, util
 
 ---
 
-*Created by ArsaModz*
+*Created by ArsaModz* :)
